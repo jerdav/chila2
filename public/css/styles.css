@@ -1,0 +1,99 @@
+body{background-color: #fff!important;}
+
+.card-shadow{
+    padding:0.5rem!important;
+    margin-bottom: 0.5rem!important;
+    box-shadow: 0 0.5rem 1rem rgb(0,0,0, 15%)!important;
+    border-radius: 0.25rem!important;
+    background-color: #fff!important;
+    border:none;
+}
+.card-header{
+    font-weight: bolder;
+    border-color:green;
+    background-color: none;
+}
+
+.card-header h2 button{
+    font-weight: bolder;
+}
+
+.card{
+    margin-bottom: 5px!important;
+}
+
+.fichetravail{
+    padding:5px!important;
+}
+.d-f-c{
+    display: flex!important;
+    justify-content: center;
+}
+
+.registration-form{
+	padding: 25px 0;
+}
+
+.registration-form form{
+    background-color: #fff;
+    width: auto;
+    margin: auto;
+    padding: 50px 70px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 15%);
+}
+
+.registration-form .form-icon{
+	text-align: center;
+    background-color: #5891ff;
+    border-radius: 50%;
+    font-size: 97px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 100px;
+}
+
+.registration-form .item{
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+
+.registration-form .create-account{
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.close-icon{
+    font-size: 2rem; 
+    color: cornflowerblue;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+    .registration-form form{
+        padding: 50px 20px;
+    }
+
+    .registration-form .form-icon{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+        
+        font-size: 67px;
+    }
+}
